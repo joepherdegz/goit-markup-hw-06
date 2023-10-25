@@ -265,13 +265,15 @@ address {
       font-weight: 500;
       line-height: 24px;
       letter-spacing: 0.32px;
-      padding-top: 24px;
+      padding-top: 10px;
 }
- 
+.service-form {
+   gap: 8px;
+}
 .service-label {
    display: flex;
    flex-direction: column;
-   margin-bottom: 30px;
+   margin-bottom: 8px;
    width: 100%;
    position: relative;
 }
@@ -300,6 +302,13 @@ address {
 }
 .service-input:hover {
    border: 1px solid var(--IRIS);
+}
+.service-input-textarea {
+   border: 1px solid var(--NAVY-BLUE);
+   border-radius: 4px;
+   transition: 250ms;
+   transition-property: color, border-color, background-color;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2 1);
 }
 /* End of Hero Section */
 
