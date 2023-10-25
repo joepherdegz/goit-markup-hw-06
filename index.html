@@ -55,10 +55,18 @@
         <section class="hero-section section">
             <div class="container">
                 <h1 class="hero-title">Effective Solutions<br>for Your Business</h1>
-                <button  type="button" class="btn data-modal-open">Order Service</button>
-                <div class="modal">
-                    <div class="data-modal is-hidden">
-                        <div class="modal-content"><button type="button" class="data-modal-close">&times;</button></div>
+                <button type="button" class="hero-btn" data-modal-open>Order Service</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button type="button" class="modal-close-btn" data-modal-close>
+                            <svg width="18" height="18">
+                                <use href="./images1/icons.svg#close"></use>
+                            </svg> 
+                        </button>
+                        <p class="top-text">Leave your contacts and we will call you back</p>
+                        <form>
+                            
+                        </form>
                     </div>
                 </div>
             </div>
