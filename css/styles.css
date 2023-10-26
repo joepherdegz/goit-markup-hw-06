@@ -335,6 +335,21 @@ address {
       letter-spacing: 0.48px;
       text-decoration-line: underline;
 }
+
+.modal-btn {
+   color: var(--WHITE);
+   background-color: var(--IRIS);
+   border: unset;
+   border-radius: 4px;
+   font-family: "Roboto";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.5;
+   padding: 16px 32px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
 /* End of Hero Section */
 
 /* Advantage Section */
@@ -522,7 +537,7 @@ address {
 /* Footer */
 .footer-container {
    display: flex;
-   column-gap: 160px;
+   column-gap: 140px;
 }
 
 .footer {
@@ -562,6 +577,7 @@ address {
    justify-content: center;
    flex-wrap: wrap;
    column-gap: 16px;
+    
 }
 
 .footer-social-media-link {
@@ -593,7 +609,7 @@ address {
 }
 .subs-mail {
    color: var(--WHITE);
-   background-color: var(--NAVY-BLUE);
+   background: var(--NAVY-BLUE);
    font-family: Roboto;
    font-size: 12px;
    font-weight: 400;
@@ -602,21 +618,36 @@ address {
    border-radius: 4px;
    border: 1px solid var(--WHITE, #FFF);
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-   padding-left: 10px;
+   padding: 9px 140px 9px 20px;
+   margin-right: 20px;
 }
-.subscribe-btn {
+.subscribe-form {
+position: relative;
+color: var(--WHITE);
+margin-right: 20px;
+}
+.subs {
+   padding-bottom: 10px;
+    
+}
+.subs-btn {
    color: var(--WHITE);
       background-color: var(--IRIS);
-       
+      border: unset;
       border-radius: 4px;
       font-family: "Roboto";
       font-size: 16px;
-       
       font-weight: 500;
       line-height: 1.5;
-       
-       
+      padding: 10px 80px 10px 20px;
       cursor: pointer;
+      
+}
+.subscribe-icon {
+   position: absolute;
+   fill: var(--WHITE);
+   top: 10px;
+   right: 30px;
 }
 
 /* End of Footer */
