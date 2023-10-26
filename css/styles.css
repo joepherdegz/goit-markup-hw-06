@@ -266,6 +266,7 @@ address {
       line-height: 24px;
       letter-spacing: 0.32px;
       padding-top: 10px;
+      padding-bottom: 10px;
 }
 .service-form {
    gap: 8px;
@@ -309,6 +310,30 @@ address {
    transition: 250ms;
    transition-property: color, border-color, background-color;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2 1);
+   padding: 8px 16px;
+}
+.privacy-policy {
+   color: var(--LIGHT-SLATE, #8E8F99);
+   font-family: Roboto;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 14px;
+   letter-spacing: 0.48px;
+   display: flex;
+   gap: 10px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+.policy {
+   color: var(--IRIS);
+   font-family: Roboto;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.48px;
+      text-decoration-line: underline;
 }
 /* End of Hero Section */
 
@@ -558,7 +583,41 @@ address {
 .footer-social-media-link:focus {
    background-color: var(--GREEN);
 }
-
+.subs {
+   color: var(--WHITE, #FFF);
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: 0.32px;
+}
+.subs-mail {
+   color: var(--WHITE);
+   background-color: var(--NAVY-BLUE);
+   font-family: Roboto;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.48px;
+   border-radius: 4px;
+   border: 1px solid var(--WHITE, #FFF);
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+   padding-left: 10px;
+}
+.subscribe-btn {
+   color: var(--WHITE);
+      background-color: var(--IRIS);
+       
+      border-radius: 4px;
+      font-family: "Roboto";
+      font-size: 16px;
+       
+      font-weight: 500;
+      line-height: 1.5;
+       
+       
+      cursor: pointer;
+}
 
 /* End of Footer */
 

@@ -91,10 +91,15 @@
                          
                             <label for="name" class="service-label">
                                 <span class="input-label">Comment</span>
-                                <textarea class="service-input-textarea" rows="6" placeholder="Text input"></textarea>
+                                <textarea class="service-input-textarea" rows="5" placeholder="Text input"></textarea>
                             </label>
-                            <input type="checkbox" name="" value="music" id="music" />
+                            <label class="privacy-policy">
+                            <input type="checkbox" name="" value="" id=""/>
+                            <p>I accept the terms and conditions of the <span class="policy">Privacy Policy</span></p>
+                            </label>
+                            <button type="button" class="hero-btn">Send</button>
                         </form>
+
                     </div>
                 </div>
             </div>
@@ -415,6 +420,19 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe-sect">
+                <p class="subs">Subscribe</p>
+                <form >
+                    <input class="subs-mail" type="text" placeholder="E-mail">
+                </form>
+            </div>
+            <div class="subscribe-btn">
+                <button type="button" class="subs-btn">Subscribe</button>
+                <svg height="24" width="24" class="subscribe-icon">
+                    <use href="./images1/icons.svg#send"></use>
+                </svg>
+            </div>
+        </div>
         </div>
     </footer>
     <script src="./js/modal.js"></script>
