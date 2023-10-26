@@ -288,14 +288,14 @@ address {
    border-radius: 4px;
    transition: 250ms;
    transition-property: color, border-color, background-color;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2 1);
-}
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
 .service-icon {
    position: absolute;
    top: 40px;
    left: 15px;
    fill: black;
-   transition: fill 250ms cubic-bezier(0.4, 0, 0.2 1);
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .service-input:focus + .service-icon,
 .service-input:hover + .service-icon {
@@ -309,7 +309,7 @@ address {
    border-radius: 4px;
    transition: 250ms;
    transition-property: color, border-color, background-color;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2 1);
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    padding: 8px 16px;
 }
 .privacy-policy {
